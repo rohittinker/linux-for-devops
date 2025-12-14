@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#cond1 && cond2 || cond3
+echo "enter your age"
+read age
+[[ $age -ge 18 ]] && echo "Adult" || echo "Minor"
+
+
+echo "enter name"
+read name
+[[ $name == "Rohit" ]] && echo "Your name is $name" || echo "is this $name"
